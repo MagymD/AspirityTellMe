@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">Aspirity TellMe</string>
+
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <string name="nav_header_desc">Заголовок меню</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name">@string/notifications</string>
+
+    <string name="a_new_massage_is_received" translatable="false">A new message is received</string>
+    <string name="by_subscription" translatable="false">By subscription: </string>
+
+    <string name="notifications">Уведомления</string>
+    <string name="subscriptions">Подписки</string>
+
+    <string name="text_of_the_notification_is_missing">[Текст уведомления отсутствует]</string>
+    <string name="no_description_available">[Описание отсутствует]</string>
+
+    <string name="the_filters_list_is_missing">Список фильтров отсутствует</string>
+    <string name="the_templates_list_is_missing">Список шаблонов отсутствует</string>
+    <string name="the_subscriptions_list_is_empty">Подписки отсутствуют</string>
+    <string name="the_notifications_list_is_empty">Список уведомлений пуст</string>
+
+    <string name="select_the_filter">Выберите фильтр</string>
+    <string name="select_template">Выберите шаблон</string>
+
+    <string name="unsubscribe_question">Отписаться?</string>
+    <string name="unsubscribe">Отписаться</string>
+    <string name="close">Закрыть</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="error_unsubscribe_failed">Отписка не удалась, проблемы с сервером</string>
+    <string name="error_the_server_is_not_available">Сервер недоступен</string>
+    <string name="error_connection_timed_out">Время подключение истекло</string>
+    <string name="error_a_network_error_occurred">Произошла ошибка сети</string>
+    <string name="error_no_internet_connection">Нет связи с интернетом</string>
+
+    <string name="the_maximum_of_the_counter" translatable="false">99+</string>
+    <string name="time_time_ago">Signed %1$s | %2$d</string>
+</resources>

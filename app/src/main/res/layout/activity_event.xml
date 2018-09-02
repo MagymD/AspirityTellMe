@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.event.EventActivity">
+
+    <TextView
+        android:id="@+id/event_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="5 minutes ago"
+        android:textColor="@color/primaryLight"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/event_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:lineSpacingMultiplier="1.3"
+        android:text="DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionion"
+        android:textColor="@color/primaryText"
+        android:textSize="14sp" />
+
+</LinearLayout>

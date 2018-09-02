@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "908080795718",
+    "firebase_url": "https://aspirity-232b6.firebaseio.com",
+    "project_id": "aspirity-232b6",
+    "storage_bucket": "aspirity-232b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908080795718:android:5920de3503a2d18c",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908080795718-sqrhp2bcnb3nevc0krk8t57uj808ieem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvFdEbj-QLwuMuWTwzH2EmyToaVwCYym8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908080795718:android:a00eb1aa29e30025",
+        "android_client_info": {
+          "package_name": "magym.aspirity.aspiritymanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908080795718-sqrhp2bcnb3nevc0krk8t57uj808ieem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvFdEbj-QLwuMuWTwzH2EmyToaVwCYym8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
