@@ -9,25 +9,25 @@ import retrofit2.http.*
 
 interface Api {
 
-    @GET("api/filters")
-    //@GET("7de513ae-5322-49da-9abc-fe775830f96c")
+    //@GET("api/filters")
+    @GET("72a4dc6a-cf7f-4934-bd47-36a33a2f5e8e")
     fun getFilters(): Single<List<Filter>>
 
-    @GET("api/templates")
-    //@GET("429b58fa-1d6d-4057-98b9-94d6bbb68165")
+    //@GET("api/templates")
+    @GET("197b6d7c-2b3d-4000-84be-6d7c9340574b")
     fun getTemplates(): Single<List<Template>>
 
-    @GET("api/subscriptions")
-    //@GET("a0e830b1-c639-4a0a-a53f-0931da9543fc")
+    //@GET("api/subscriptions")
+    @GET("b65f7f7e-5a88-4824-bf67-04a506dd3e5b")
     fun getSubscriptions(@Query("regToken") idDevice: String): Single<List<Subscription>>
 
-    @POST("api/subscriptions")
-    //@POST("a0e830b1-c639-4a0a-a53f-0931da9543fc")
+    //@POST("api/subscriptions")
+    @POST("b65f7f7e-5a88-4824-bf67-04a506dd3e5b")
     @Headers("Content-Type: application/json")
     fun postSubscription(@Body subscription: SubscriptionPost): Single<String>
 
-    @DELETE("api/subscriptions/{id}")
-    //@DELETE("a0e830b1-c639-4a0a-a53f-0931da9543fc/{id}")
+    //@DELETE("api/subscriptions/{id}")
+    @DELETE("b65f7f7e-5a88-4824-bf67-04a506dd3e5b/{id}")
     fun deleteSubscription(@Path("id") id: String): Single<String>
 
 }

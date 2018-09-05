@@ -33,7 +33,7 @@ class App : Application() {
         createChannelNotification()
 
         // Test
-        //subscribeToTopic("news") // /topics/news
+        subscribeToTopic("news") // /topics/news
 
         //Stetho()
     }

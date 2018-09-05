@@ -28,8 +28,8 @@ NetworkManager {
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .baseUrl("http://notterox.ru:4000/")
-                //.baseUrl("https://webhook.site/")
+                //.baseUrl("http://notterox.ru:4000/")
+                .baseUrl("https://webhook.site/")
                 .build()
                 .create(Api::class.java)
     }
