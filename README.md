@@ -17,6 +17,4 @@ is designed to filter and send alerts to project developers from various sources
 * TimeAgo
 
 ## Screenshots:
-![Notifications](http://imagehost.cc/images/2018/09/02/Notifications.png)
-![Subscriptions](http://imagehost.cc/images/2018/09/02/Subscriptions.png)
-![About the subscription](http://imagehost.cc/images/2018/09/02/Aboutthesubscription.png)
+![Photos](http://imagehost.cc/images/2018/11/03/Photos_.png)
